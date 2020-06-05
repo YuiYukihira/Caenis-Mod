@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_CAENIS" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_CAENIS_SEA_GODS_ESSENCE" Kind="KIND_TRAIT" />
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_CAENIS</LeaderType>
+			<Name>LOC_LEADER_CAENIS_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_CAENIS" Quote="LOC_LEADER_CAENIS_QUOTE"/>
+	</LeaderQuotes>
+
+	<Traits>
+		<!-- Leader traits -->
+		<Row TraitType="TRAIT_LEADER_CAENIS_SEA_GODS_ESSENCE" Name="LOC_TRAIT_LEADER_CAENIS_SEA_GODS_ESSENCE_NAME" Description="LOC_TRAIT_LEADER_CAENIS_SEA_GODS_ESSENCE_DESCRIPTION" />
+	</Traits>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_CAENIS" TraitType="TRAIT_LEADER_CAENIS_SEA_GODS_ESSENCE" />
+	</LeaderTraits>
+</GameData>

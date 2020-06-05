@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Types>
+        <Row Type="UNIT_CAENIS_ANCIENT" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_CAENIS_CLASSICAL" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_CAENIS_RENAISSANCE" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_CAENIS_MODERN" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_CAENIS_INFORMATION" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_CAENIS_HERO" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_CAENIS_DIVINE" Kind="KIND_UNIT"/>
+    </Types>
+
+    <UnitAiInfos>
+        <Row UnitType="UNIT_CAENIS_ANCIENT" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_CAENIS_ANCIENT" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_CAENIS_ANCIENT" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_CAENIS_ANCIENT" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_CAENIS_CLASSICAL" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_CAENIS_CLASSICAL" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_CAENIS_CLASSICAL" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_CAENIS_CLASSICAL" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_CAENIS_RENAISSANCE" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_CAENIS_RENAISSANCE" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_CAENIS_RENAISSANCE" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_CAENIS_RENAISSANCE" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_CAENIS_MODERN" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_CAENIS_MODERN" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_CAENIS_MODERN" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_CAENIS_MODERN" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_CAENIS_INFORMATION" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_CAENIS_INFORMATION" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_CAENIS_INFORMATION" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_CAENIS_INFORMATION" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_CAENIS_HERO" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_CAENIS_HERO" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_CAENIS_HERO" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_CAENIS_HERO" AiType="UNITTYPE_LAND_COMBAT"/>
+        <Row UnitType="UNIT_CAENIS_DIVINE" AiType="UNITAI_COMBAT"/>
+        <Row UnitType="UNIT_CAENIS_DIVINE" AiType="UNITAI_EXPLORE"/>
+        <Row UnitType="UNIT_CAENIS_DIVINE" AiType="UNITTYPE_MELEE"/>
+        <Row UnitType="UNIT_CAENIS_DIVINE" AiType="UNITTYPE_LAND_COMBAT"/>
+    </UnitAiInfos>
+    <TypeTags>
+        <Row Type="UNIT_CAENIS_ANCIENT" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_CAENIS_CLASSICAL" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_CAENIS_RENAISSANCE" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_CAENIS_MODERN" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_CAENIS_INFORMATION" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_CAENIS_HERO" Tag="CLASS_MELEE"/>
+        <Row Type="UNIT_CAENIS_DIVINE" Tag="CLASS_MELEE"/>
+    </TypeTags>
+    <Units>
+        <Row UnitType="UNIT_CAENIS_ANCIENT" Cost="1" Maintenance="2" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="30" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CAENIS_NAME" Description="LOC_UNIT_CAENIS_DESCRIPTION" CanTrain="False" PrereqTech="TECH_ASTRONOMY"/>
+        <Row UnitType="UNIT_CAENIS_CLASSICAL" Cost="1" Maintenance="2" BaseMoves="5" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="50" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CAENIS_NAME" Description="LOC_UNIT_CAENIS_DESCRIPTION" CanTrain="False" PrereqTech="TECH_IRON_WORKING"/>
+        <Row UnitType="UNIT_CAENIS_RENAISSANCE" Cost="1" Maintenance="4" BaseMoves="5" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="70" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CAENIS_NAME" Description="LOC_UNIT_CAENIS_DESCRIPTION" CanTrain="False" PrereqTech="TECH_GUNPOWDER"/>
+        <Row UnitType="UNIT_CAENIS_MODERN" Cost="1" Maintenance="6" BaseMoves="5" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="90" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CAENIS_NAME" Description="LOC_UNIT_CAENIS_DESCRIPTION" CanTrain="False" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+        <Row UnitType="UNIT_CAENIS_INFORMATION" Cost="1" Maintenance="8" BaseMoves="6" BaseSightRange="4" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="100" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CAENIS_NAME" Description="LOC_UNIT_CAENIS_DESCRIPTION" CanTrain="False" PrereqTech="TECH_SATELLITES"/>
+        <Row UnitType="UNIT_CAENIS_HERO" Cost="1" Maintenance="15" BaseMoves="8" BaseSightRange="5" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="140" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CAENIS_NAME" Description="LOC_UNIT_CAENIS_DESCRIPTION" CanTrain="False" PrereqTech="TECH_ROBOTICS"/>
+        <Row UnitType="UNIT_CAENIS_DIVINE" Cost="1" Maintenance="15" BaseMoves="8" BaseSightRange="6" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="180" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_CAENIS_NAME" Description="LOC_UNIT_CAENIS_DESCRIPTION" CanTrain="False" PrereqTech="TECH_FUTURE_TECH"/>
+    </Units>
+    <UnitUpgrades>
+        <Row Unit="UNIT_CAENIS_ANCIENT" UpgradeUnit="UNIT_CAENIS_CLASSICAL"/>
+        <Row Unit="UNIT_CAENIS_CLASSICAL" UpgradeUnit="UNIT_CAENIS_RENAISSANCE"/>
+        <Row Unit="UNIT_CAENIS_RENAISSANCE" UpgradeUnit="UNIT_CAENIS_MODERN"/>
+        <Row Unit="UNIT_CAENIS_MODERN" UpgradeUnit="UNIT_CAENIS_INFORMATION"/>
+        <Row Unit="UNIT_CAENIS_INFORMATION" UpgradeUnit="UNIT_CAENIS_HERO"/>
+        <Row Unit="UNIT_CAENIS_HERO" UpgradeUnit="UNIT_CAENIS_DIVINE"/>
+    </UnitUpgrades>
+    <UnitAbilities>
+        <Row UnitAbilityType="ABILITY_CAENIS_HP_1" Name="LOC_ABILITY_CAENIS_HP_1_NAME" Description="LOC_ABILITY_CAENIS_HP_1_DESCRIPTION"/>
+    </UnitAbilities>
+</GameData>

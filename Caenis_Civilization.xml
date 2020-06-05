@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_OLYMPUS" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_OLYMPUS_AFFECTION" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_OLYMPUS" Kind="KIND_TRAIT"/>
+	</Types>
+	
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_OLYMPUS</CivilizationType>
+			<Name>LOC_CIVILIZATION_OLYMPUS_NAME</Name>
+			<Description>LOC_CIVILIZATION_OLYMPUS_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_OLYMPUS_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" LeaderType="LEADER_CAENIS" CapitalName="LOC_CIVLIZATION_OLYMPUS_CITY_1" />
+	</CivilizationLeaders>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CitizenName="LOC_CITIZEN_OLYMPUS_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CitizenName="LOC_CITIZEN_OLYMPUS_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CitizenName="LOC_CITIZEN_OLYMPUS_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CitizenName="LOC_CITIZEN_OLYMPUS_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CitizenName="LOC_CITIZEN_OLYMPUS_5" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CitizenName="LOC_CITIZEN_OLYMPUS_6" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CitizenName="LOC_CITIZEN_OLYMPUS_7" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CitizenName="LOC_CITIZEN_OLYMPUS_8" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CitizenName="LOC_CITIZEN_OLYMPUS_9" Female="1"/>
+	</CivilizationCitizenNames>
+
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" Header="LOC_CIVINFO_OLYMPUS_FACTOID_NAME" Caption="LOC_CIVINFO_OLYMPUS_FACTOID_DESCRIPTION" />
+	</CivilizationInfo>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" TraitType="TRAIT_CIVILIZATION_DISTRICT_OLYMPUS" />
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" TraitType="TRAIT_CIVILIZATION_OLYMPUS_AFFECTION" />
+	</CivilizationTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_OLYMPUS_AFFECTION" Name="LOC_TRAIT_CIVILIZATION_OLYMPUS_AFFECTION_NAME" Description="LOC_TRAIT_CIVILIZATION_OLYMPUS_AFFECTION_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_OLYMPUS" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_OLYMPUS_NAME" Description="LOC_TRAIT_CIVILIZATION_DISTRICT_OLYMPUS_DESCRIPTION" />
+	</Traits>
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CityName="LOC_CIVLIZATION_OLYMPUS_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CityName="LOC_CIVLIZATION_OLYMPUS_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CityName="LOC_CIVLIZATION_OLYMPUS_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CityName="LOC_CIVLIZATION_OLYMPUS_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CityName="LOC_CIVLIZATION_OLYMPUS_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CityName="LOC_CIVLIZATION_OLYMPUS_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CityName="LOC_CIVLIZATION_OLYMPUS_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CityName="LOC_CIVLIZATION_OLYMPUS_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CityName="LOC_CIVLIZATION_OLYMPUS_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" CityName="LOC_CIVLIZATION_OLYMPUS_CITY_10" />
+	</CityNames>
+
+	<!-- Terrian Biases -->
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" Tier="1"/>
+	</StartBiasRivers>
+	
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" TerrainType="TERRAIN_COAST" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" TerrainType="TERRAIN_PLAINS_HILLS" Tier="2"/>
+	</StartBiasTerrains>
+
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" FeatureType="FEATURE_REEF" Tier="1"/>
+	</StartBiasFeatures>
+
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_OLYMPUS" ResourceType="RESOURCE_OIL" Tier="1"/>
+	</StartBiasResources>
+</GameData>

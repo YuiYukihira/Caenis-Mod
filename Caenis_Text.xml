@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_OLYMPUS_NAME" Language="en_US">
+			<Text>Olympus</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_OLYMPUS_DESCRIPTION" Language="en_US">
+			<Text>Olympus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_CAENIS_NAME" Language="en_US">
+			<Text>Caenis</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_OLYMPUS_AFFECTION_NAME" Language="en_US">
+			<Text>Affection of the Sea God</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_OLYMPUS_AFFECTION_DESCRIPTION" Language="en_US">
+			<Text>Tiles adjacent to mountains grant an additional +2 [ICON_Faith] faith, +1 [ICON_Culture] Culture. Coastal Tiles grant an additional +2 [ICON_Food] food, +1 [ICON_Gold] gold. All city tiles +2 appeal. +50% [ICON_Tourism] Tourism for any city with a religion.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_CAENIS_SEA_GODS_ESSENCE_NAME" Language="en_US">
+			<Text>Mt. Olympus</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_CAENIS_SEA_GODS_ESSENCE_DESCRIPTION" Language="en_US">
+			<Text>Starts with Sailing and Shipbuilding, can enter Ocean tiles. All Naval units +5 [ICON_Strength] combat strength and maintenance reduced by 2 [ICON_Gold]. Ocean [ICON_TradeRoute] trade routes cannot be plundered. Trade routes grant an additional +2 [ICON_Gold] gold, +1 [ICON_Culture] culture. +4 Loyalty for City with Garrisoned unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_OLYMPUS_NAME" Language="en_US">
+			<Text>Sea God's Essence</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_OLYMPUS_DESCRIPTION" Language="en_US">
+			<Text>Starts with Sailing and Shipbuilding, can enter Ocean tiles. All Naval units +5 [ICON_Strength] combat strength and maintenance reduced by 2 [ICON_Gold]. Ocean [ICON_TradeRoute] trade routes cannot be plundered. Trade routes grant an additional +2 [ICON_Gold] gold, +1 [ICON_Culture] culture. +4 Loyalty for City with Garrisoned unit.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CAENIS_QUOTE" Language="en_US">
+			<Text>Higher and higher and even higher! I can reach even the sea of stars! Flap, my wings! Soar, My Great Golden Wings!!</Text>
+		</Row>
+
+
+		<Row Tag="LOC_DISTRICT_OLYMPUS_NAME" Language="en_US">
+			<Text>Mt. Olympus</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_OLYMPUS_DESCRIPTION" Language="en_US">
+			<Text>A disitrict unique to Olympus, relpaces the Holy Site. Can only built on a Mountain. Can only be built once in your empire. Requires Astronomy. +4 [ICON_Culture] Culture, +2 [ICON_Gold] Gold for each adjacent Mountain and Coastal tile. +2 [ICON_Culture], +1 [ICON_Gold] for each adjacent resource. +2 [ICON_Culture] Culture for each adjacent District. +1 [ICON_GreatWriter] Great Writer, [ICON_GreatArtist] Great Artist, [ICON_GreatMusician] Great Musician and [ICON_GreatAdmiral] Great Admiral point per turn. Spawns a [ICON_GreatProfit] Great Prophet when built. Grants an extra trade route. Receive random 5 [ICON_Inspiration] cultural inspirations and 5 [ICON_Eureka] Eureka from Ancient, Classic and Medieval eras when constructed. A religion can be founded here. Religious units can be purchased in a city with this district.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_CAENIS_NAME" Language="en_US">
+			<Text>Caenis</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CAENIS_DESCRIPTION" Language="en_US">
+			<Text>Cannot be produced. Acquired at Astronomy. Heals 10Hp per turn when embarked. Maintenance: 2 [ICON_Gold]. Moves: 4 [ICON_Moves]. Melee: 30 [ICON_Strength]</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_OLYMPUS_ADJECTIVE" Language="en_US">
+			<Text>Olympians</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_CAENIS" Language="en_US">
+			<Text>Spread your wings and soar, o’ great Caenis, defiant tyrant of Olympus. The seas crash and rage against your walls but by your great voice shall they be silenced. Do not fear for the enemies that erect their cities on your land and raise their armies against you, for you bear the favour of the gods and though your rage burns brighter than the sun your glory will shine greater and for all eternity.</Text>
+		</Row>
+
+		<Row Tag="LOC_OLYMPUS_ADJ_MC" Language="en_US">
+			<Text>+4 [ICON_Culture] Culture from each adjacent Mountain.</Text>
+		</Row>
+		<Row Tag="LOC_OLYMPUS_ADJ_MG" Language="en_US">
+			<Text>+2 [ICON_Gold] Gold from each adjacent Mountain.</Text>
+		</Row>
+		<Row Tag="LOC_OLYMPUS_ADJ_CC" Language="en_US">
+			<Text>+4 [ICON_Culture] Culture from each adjacent Coastal tile.</Text>
+		</Row>
+		<Row Tag="LOC_OLYMPUS_ADJ_CG" Language="en_US">
+			<Text>+2 [ICON_Gold] Gold from each adjacent Coastal tile.</Text>
+		</Row>
+		<Row Tag="LOC_OLYMPUS_ADJ_SRC" Language="en_US">
+			<Text>+2 [ICON_Culture] Culture from each adjacent strategic resource.</Text>
+		</Row>
+		<Row Tag="LOC_OLYMPUS_ADJ_SRG" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold from each adjacent strategic resource.</Text>
+		</Row>
+		<Row Tag="LOC_OLYMPUS_ADJ_LRC" Language="en_US">
+			<Text>+2 [ICON_Culture] Culture from each adjacent luxury resource.</Text>
+		</Row>
+		<Row Tag="LOC_OLYMPUS_ADJ_LRG" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold from each adjacent luxury resource.</Text>
+		</Row>
+		<Row Tag="LOC_OLYMPUS_ADJ_BRC" Language="en_US">
+			<Text>+2 [ICON_Culture] Culture from each adjacent bonus resource.</Text>
+		</Row>
+		<Row Tag="LOC_OLYMPUS_ADJ_BRG" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold from each adjacent bonus resource.</Text>
+		</Row>
+		<Row Tag="LOC_OLYMPUS_ADJ_DISTRICT" Language="en_US">
+			<Text>+2 [ICON_Culture] Culture from each adjacent district.</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_OLYMPUS_1" Language="en_US">
+			<Text>Thessaly</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_2" Language="en_US">
+			<Text>Themiscyra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_3" Language="en_US">
+			<Text>Thebes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_4" Language="en_US">
+			<Text>Argos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_5" Language="en_US">
+			<Text>Corinth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_6" Language="en_US">
+			<Text>Athens</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_7" Language="en_US">
+			<Text>Sparta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_8" Language="en_US">
+			<Text>Crete</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_9" Language="en_US">
+			<Text>Rhodes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_10" Language="en_US">
+			<Text>Colchis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_11" Language="en_US">
+			<Text>Troy</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_12" Language="en_US">
+			<Text>Aeaea</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_13" Language="en_US">
+			<Text>Chios</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_14" Language="en_US">
+			<Text>Mycenae</Text>
+		</Row>
+		<Row Tag="LOC_CITY_OLYMPUS_15" Language="en_US">
+			<Text>Troezen</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZET_OLYMPUS_MALE_1" Language="en_US">
+			<Text>Achilles</Text>
+		</Row>
+		<Row Tag="LOC_CITIZET_OLYMPUS_MALE_2" Language="en_US">
+			<Text>Caeneus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZET_OLYMPUS_MALE_3" Language="en_US">
+			<Text>Orion</Text>
+		</Row>
+		<Row Tag="LOC_CITIZET_OLYMPUS_MALE_4" Language="en_US">
+			<Text>Heracles</Text>
+		</Row>
+		<Row Tag="LOC_CITIZET_OLYMPUS_MALE_5" Language="en_US">
+			<Text>Chiron</Text>
+		</Row>
+		<Row Tag="LOC_CITIZET_OLYMPUS_FEMALE_1" Language="en_US">
+			<Text>Penthesilea</Text>
+		</Row>
+		<Row Tag="LOC_CITIZET_OLYMPUS_FEMALE_2" Language="en_US">
+			<Text>Atalanta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZET_OLYMPUS_FEMALE_3" Language="en_US">
+			<Text>Pollux</Text>
+		</Row>
+		<Row Tag="LOC_CITIZET_OLYMPUS_FEMALE_4" Language="en_US">
+			<Text>Circe</Text>
+		</Row>
+		<Row Tag="LOC_CITIZET_OLYMPUS_FEMALE_5" Language="en_US">
+			<Text>Medea</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CAENIS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A warrior and tyrant found within Greek mythology. As a member of the Argonauts, Caenis went on many adventures with the crew. Though once a woman, Caenis later became a man…. it has been said.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CAENIS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>In the past, Caenis was beyond a doubt a true woman, beauty renowned, and praised as one of the most beautiful maidens in Thessaly. At one point after turning down numerous courters, Caenis received the love of the sea god Poseidon (Neptune) and also lost the chastity once held. Satisfied, the sea god said, "I will grant all of your wishes" to which Caenis replied, "Please make me no longer a woman so that I will never have to go through an experience like this ever again" and Caenis became an invincible man, the legend says.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CAENIS_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>It cannot be said for sure that Caenis actually became a man due to some tales left behind. After death in one story, Caenis is said to have become a bird with golden wings and disappeared into the skies, but there is also another tale that the corpse of a woman was left behind. Either way, the subsequent Caenis/Caeneus became a mighty warrior and showed the world a powerful tyrant that could rule the lands.</Text>
+		</Row>
+		<!--
+		<Row Tag="" Language="en_US">
+			<Text></Text>
+		</Row>
+		-->
+	</LocalizedText>
+</GameData>
